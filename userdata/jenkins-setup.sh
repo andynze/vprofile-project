@@ -1,4 +1,5 @@
 #!/bin/bash
+# Prerequisite: Java, Maven, Jenkins
 sudo apt update
 sudo apt install openjdk-8-jdk -y
 sudo apt install ca-certificates -y
@@ -10,4 +11,4 @@ echo deb [signed-by=/usr/share/keyrings/jenkins-keyring.asc] \
   /etc/apt/sources.list.d/jenkins.list > /dev/null
 sudo apt-get update
 sudo apt-get install jenkins -y
-##
+
