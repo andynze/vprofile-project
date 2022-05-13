@@ -1,5 +1,5 @@
 #!/bin/bash
-## Prerequisite: Java, Maven, Jenkins
+### Prerequisite: Java, Maven, Jenkins
 sudo apt update
 sudo apt install openjdk-8-jdk -y
 sudo apt install ca-certificates -y
